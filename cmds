@@ -1,5 +1,25 @@
 git init --> Initializes new repo in the specified directory
 git status --> Lists all files which are untracked in the directory
+git add filename --> Adds the file to the master branch for tracking 
 git commit -m "your msg" --> commits the new content with the changes
 git diff --> To track changes in the file
 git log --> To track the git commits
+git remote -v --> To check the current remote repoo
+git remote add reponame "url" --> To add remote repo to push the code
+git clone url --> To clone code to ur local system
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fork --> Used to create duplicate of a repoo
+Branch --> To develop a feature separately and merge with the master after completing the feature development
