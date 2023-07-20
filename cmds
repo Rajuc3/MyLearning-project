@@ -7,6 +7,10 @@ git log --> To track the git commits
 git remote -v --> To check the current remote repoo
 git remote add reponame "url" --> To add remote repo to push the code
 git clone url --> To clone code to ur local system
+git checkout -b branchname --> To checkout from main barnch to newly created branch
+git checkout branchname --> To switch between branches
+git merge branchname --> To merge branch into the master, and the updates are shown at the top
+git rebase branchname --> To add branch in master, the updates will be shown in the order
 
 
 
