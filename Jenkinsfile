@@ -16,4 +16,15 @@ pipeline {
             }
         }
 }
+post {
+        success {
+            // Add post-build actions if needed
+            echo"done success"
+        }
+        
+        failure {
+            // Add actions for build failures
+            echo"failed"
+        }
+    }
 }
